@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(120deg, rgb(1, 1, 27), rgb(6, 6, 119));
+    font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1.8em;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.container{
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    height: 650px;
+    background-color: white;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h2{
+    color: rgb(1, 1, 27);
+    font-size: 2rem;
+}
+
+.projects{
+    height: 500px;
+    width: 98%;
+    margin: auto;
+    padding: 40px 0;
+    border: 3px solid rgb(6, 6, 119);
+    border-radius: 10px;
+}
+
+.btn{
+    font-size: 1rem;
+    width: 150px;
+    padding: 10px 10px;
+    background: rgb(6, 6, 119);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    margin: 10px 40px 10px 0;
+}
+
+.btn:hover{
+    background: rgb(1, 1, 27);
+    width: 160px;
+} 
+
+.project-cont{
+    clear: both !important;
+    width: 98%;
+    margin: auto;
+    height: 500px;
+    /* overflow: hidden; */
+}
+
+.ui-widget-content {
+    height: 200px !important;
+    width: 98% !important;
+    margin: auto !important;
+    border: 0 !important;
+    background: #fff;
+    color: #333;
+}
+
+.ui-tabs .ui-tabs-nav {
+    padding: .6em .6em .4em .2em !important;
+}
+
+.ui-widget-header {
+    background: rgb(1, 1, 27) !important; 
+}
+
+.ui-tabs .ui-tabs-nav li {
+    margin: 1px .3em 0 0 !important;
+    border: 0 !important;
+    border-radius: 15px 0 0 0 !important;
+    background: rgb(6, 6, 119) !important;
+    /* color: white !important; */
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+    color: white !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #007fff !important;
+    margin-bottom: 3px;
+    padding-bottom: 1px;
+}
+
+.content-wrap{
+    width: 96%;
+    margin: auto;
+    margin: 20px 40px;
+}
+
+
+ol li{
+    border: 1px dotted rgb(1, 1, 27);
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+ol li input[type=checkbox] {
+    margin: 0 3px;
+    font-size: 10px;
+}
+
+ol li:hover{
+    background: rgb(1, 1, 27);
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.dialog{
+    display: none;
+}
+
+.dialog label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.dialog input{
+    height: 40px;
+
+}
+
+.ui-widget-header {
+    color: white !important;
+    border: 0 !important;
+    font-weight: bold;
+}
+
+.ui-dialog{
+    width: 400px !important;
+    height: 250px !important;
+    background: #007fff !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border-width: 1px 0 0 0;
+    background: rgb(1, 1, 27) !important;
+    color: white !important;
+    margin-top: 0 !important;
+    padding: .3em 1em .5em .4em;
+    width: 400px !important;
+    height: 70px !important;
+} 
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 0 !important;
+    border-radius: 8px !important;
+    background: rgb(6, 6, 119) !important;
+    font-weight: normal;
+    color: white !important;
+}
